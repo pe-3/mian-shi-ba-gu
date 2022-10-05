@@ -1,3 +1,6 @@
+# promise 发送 Ajax
+
+```js
 function ajax(method, url, data) {
     const xhr = new XMLHttpRequest();
     return new Promise((resolve, reject) => {
@@ -13,3 +16,5 @@ function ajax(method, url, data) {
         xhr.send(data);
     })
 }
+```
+
